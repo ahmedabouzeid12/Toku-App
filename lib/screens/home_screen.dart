@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:toku_app/components/component_item.dart';
 import 'package:toku_app/screens/colors_screen.dart';
-import 'package:toku_app/screens/familly_mumbers_screen.dart';
+import 'package:toku_app/screens/familly_members_screen.dart';
 import 'package:toku_app/screens/numbers_screen.dart';
 import 'package:toku_app/screens/phrases_screen.dart';
 
@@ -33,12 +33,12 @@ class HomeScreen extends StatelessWidget {
               ),
           Category(
             color: Color(0xff558B37),
-            text: 'Familly Mumbers',
+            text: 'Familly Members',
             onTap: (){
               Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context){
-                    return FamillyMumbersScreen();
+                    return FamillyMembersScreen();
                   }));
             },
           ),

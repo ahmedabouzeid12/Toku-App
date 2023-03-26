@@ -3,8 +3,8 @@ import 'package:toku_app/components/list_item.dart';
 import 'package:toku_app/models/item.dart';
 
 
-class FamillyMumbersScreen extends StatelessWidget {
-  const FamillyMumbersScreen({Key? key}) : super(key: key);
+class FamillyMembersScreen extends StatelessWidget {
+  const FamillyMembersScreen({Key? key}) : super(key: key);
 
 
   final List<Item> familyMembers = const [
@@ -75,7 +75,7 @@ class FamillyMumbersScreen extends StatelessWidget {
       backgroundColor: Color(0xffFEF6DB),
       appBar: AppBar(
         backgroundColor: Color(0xff46322b),
-        title: Text('Familly Mumbers'),
+        title: Text('Familly Members'),
       ),
       body: ListView.builder(
         itemCount: familyMembers.length,
