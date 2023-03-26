@@ -33,7 +33,7 @@ class HomeScreen extends StatelessWidget {
               ),
           Category(
             color: Color(0xff558B37),
-            text: 'Familly Numbers',
+            text: 'Familly Mumbers',
             onTap: (){
               Navigator.push(
                   context,

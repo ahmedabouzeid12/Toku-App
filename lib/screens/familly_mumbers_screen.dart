@@ -75,7 +75,7 @@ class FamillyMumbersScreen extends StatelessWidget {
       backgroundColor: Color(0xffFEF6DB),
       appBar: AppBar(
         backgroundColor: Color(0xff46322b),
-        title: Text('Familly Numbers'),
+        title: Text('Familly Mumbers'),
       ),
       body: ListView.builder(
         itemCount: familyMembers.length,
